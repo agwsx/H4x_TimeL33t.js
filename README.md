@@ -1,4 +1,5 @@
-🔥 Time Filter Script 🔥
+🔥 H4x_TimeL33t.js 🔥
+
 Organiza y filtra los resultados del fuzzing basados en el tiempo de respuesta
 
 Descripción:
