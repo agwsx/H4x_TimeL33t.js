@@ -4,6 +4,7 @@ Organiza y filtra los resultados del fuzzing basados en el tiempo de respuesta
 Descripción:
 Este script está diseñado para ser utilizado en OWASP ZAP con el propósito de ordenar y filtrar los resultados de un ataque de inyección SQL (blind SQL injection) utilizando time-based delays. 
 El script permite que el fuzzing se ordene automáticamente según el tiempo de respuesta de cada solicitud, ayudando a identificar fácilmente los valores que tardan más o menos en procesarse. 
+Este script utiliza Graal.js, el motor de JavaScript compatible con OWASP ZAP.
 
 Características:
 Orden de Resultados: Ordena los resultados del fuzzing en función del tiempo que tardan en responder (en milisegundos).
@@ -14,6 +15,7 @@ Habilitar el Script:
 
 Abre ZAP y navega a la sección "Scripts".
 Agrega el script a "Fuzzer HTTP Processor".
+Seleccionar Graal.js como script engine
 Asegúrate de habilitar el script para que funcione correctamente.
 Configuración Inicial:
 
