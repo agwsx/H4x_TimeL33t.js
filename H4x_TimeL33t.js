@@ -1,5 +1,5 @@
 // 🔥 Time Filter Script 🔥
-// 💻 Stay curious. Hack smart.
+// 💻 
 
 // Variables necesarias
 var time, choice, init;
